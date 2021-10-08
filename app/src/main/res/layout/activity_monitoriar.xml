@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Monitoriar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="28dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="201dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/monitorear" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn"
+                android:hint="Nombre completo" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="299dp"
+                android:layout_gravity="center"
+                android:layout_height="28dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn"
+                android:hint="Correo electrónico" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn"
+                android:hint="Número de teléfono" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn"
+                android:hint="Corrreo electrónico" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="395dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/monitorear2" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn"
+                android:hint="Nombre completo" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn"
+                android:hint="Número de telefóno" />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn"
+                android:hint="Correo de verificación" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="299dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn"
+                android:hint="Código de verificación" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnAceptar"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="44dp"
+                    android:backgroundTint="#204078"
+                    android:text="Aceptar"
+
+                    android:textColor="@color/whiteT" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

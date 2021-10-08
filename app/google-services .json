@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "552959660407",
+    "project_id": "markbus-6b4ca",
+    "storage_bucket": "markbus-6b4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552959660407:android:a8bccb7e82037f02941172",
+        "android_client_info": {
+          "package_name": "com.example.markbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552959660407-trc5nki49ieunadnfn7mmmqg2dtdhp1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.markbus",
+            "certificate_hash": "7bd0eef0847b6f14c7ff9e0c93cdeadcada0968e"
+          }
+        },
+        {
+          "client_id": "552959660407-4s82f1e0r7asaoi8804hj3hjm5o6vt1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRXUYNFK8Axb6ZivpdGMw4dqQjZhG69xI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552959660407-4s82f1e0r7asaoi8804hj3hjm5o6vt1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
